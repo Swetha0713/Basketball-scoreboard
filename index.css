@@ -74,7 +74,7 @@ button:hover {
     color: #1B244A;
 }
 
-.new-game-btn {
+.newgame-btn {
     margin-top: 20px;
     /* Adds space above the button */
     padding: 10px 20px;
@@ -87,7 +87,21 @@ button:hover {
     border: none;
 }
 
-.new-game-btn:hover {
+.newgame-btn:hover {
     background-color: #F94F6D;
     color: white;
+}
+
+
+#winner {
+    margin-top: 20px;
+    height: 30px;
+    /* Reserves space so the button doesn't jump */
+    color: gold;
+    /* Gold text for the winner */
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 2px 2px black;
+    /* Makes text pop */
 }
