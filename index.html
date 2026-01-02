@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <div class="score-box" id="home-score">0</div>
+                <div class="btn-container">
+                    <button onclick="addHome(1)">+1</button>
+                    <button onclick="addHome(2)">+2</button>
+                    <button onclick="addHome(3)">+3</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <h3>GUEST</h3>
+                <div class="score-box" id="guest-score">0</div>
+                <div class="btn-container">
+                    <button onclick="addGuest(1)">+1</button>
+                    <button onclick="addGuest(2)">+2</button>
+                    <button onclick="addGuest(3)">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="new-game-btn" onclick="newGame()">NEW GAME</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
